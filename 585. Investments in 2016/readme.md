@@ -1,6 +1,7 @@
 Problem :
 Table: Insurance
 
+
 +-------------+-------+
 | Column Name | Type  |
 +-------------+-------+
@@ -10,6 +11,8 @@ Table: Insurance
 | lat         | float |
 | lon         | float |
 +-------------+-------+
+
+
 pid is the primary key (column with unique values) for this table.
 Each row of this table contains information about one policy where:
 pid is the policyholder's policy ID.
@@ -32,6 +35,8 @@ Example 1:
 
 Input: 
 Insurance table:
+
+
 +-----+----------+----------+-----+-----+
 | pid | tiv_2015 | tiv_2016 | lat | lon |
 +-----+----------+----------+-----+-----+
@@ -40,12 +45,17 @@ Insurance table:
 | 3   | 10       | 30       | 20  | 20  |
 | 4   | 10       | 40       | 40  | 40  |
 +-----+----------+----------+-----+-----+
+
+
 Output: 
+
+
 +----------+
 | tiv_2016 |
 +----------+
 | 45.00    |
 +----------+
+
 Explanation: 
 The first record in the table, like the last record, meets both of the two criteria.
 The tiv_2015 value 10 is the same as the third and fourth records, and its location is unique.
