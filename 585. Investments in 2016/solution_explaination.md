@@ -1,4 +1,4 @@
-Here’s a step-by-step breakdown of how it works:
+Here’s a step-by-step breakdown with "459ms Beats 62.35%":
 
 Inner Query 1 (t1):
 
